@@ -1,4 +1,4 @@
-# Sublime Text3 User Settngs
+# Sublime Text3 User Settings
 
 
 ## Settings(\*.sublime-settings)
