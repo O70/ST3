@@ -1,5 +1,5 @@
 {
-	"font_size": 18,
+	"font_size": 12,
 	"ignored_packages":
 	[
 	],
@@ -7,5 +7,7 @@
 
     // Display line endings in the status bar
     "show_line_endings": true,
-	"theme": "Adaptive.sublime-theme"
+	"theme": "Adaptive.sublime-theme",
+	"highlight_line": true,
+	"overlay_scroll_bars": "enabled"
 }
