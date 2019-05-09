@@ -1,11 +1,24 @@
 # Sublime Text3 User Settngs
 
+
+## Settings(\*.sublime-settings)
+
 - Preferences.sublime-settings
 
-- \*.sublime-keymap
+## Keymap(\*.sublime-keymap)
 
-- \*.sublime-build
+- Default (OSX).sublime-keymap
 
-- packages/Package Control.sublime-package
+## Build(\*.sublime-build)
 
-- snippets
+- Python3.sublime-build
+
+- node.sublime-build
+
+## Snippets(\*.sublime-snippet)
+
+- markdown
+
+## Packages(\*.sublime-package)
+
+- Package Control.sublime-package
