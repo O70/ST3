@@ -1,0 +1,9 @@
+.DS_Store
+
+*.cache
+*.crt
+*.last-run
+*.merged-ca-bundle
+*.user-ca-bundle
+
+Package\ Control.sublime-settings

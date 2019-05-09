@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+> ![](https://cloud.spring.io/spring-cloud-static/spring-cloud-sleuth/2.1.0.RELEASE/single/images/tip.png) $1
+]]></content>
+	<tabTrigger>md.st</tabTrigger>
+	<scope>text.html.markdown, meta.paragraph.markdown</scope>
+	<description>Markdown Spring Doc Tip</description>
+</snippet>

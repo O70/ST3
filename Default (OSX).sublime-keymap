@@ -1,0 +1,37 @@
+[
+	/*
+	{ "keys": ["alt+/"], "command": "auto_complete" },
+	{ "keys": ["alt+/"], "command": "replace_completion_with_auto_complete", "context":
+		[
+			{ "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
+			{ "key": "auto_complete_visible", "operator": "equal", "operand": false },
+			{ "key": "setting.tab_completion", "operator": "equal", "operand": true }
+		]
+	},
+	{ "keys": ["ctrl+k", "1"], "command": "open_file", 
+		"args": {"file": "${packages}/Default/Default (Linux).sublime-keymap"} },
+	{ "keys": ["ctrl+k", "2"], "command": "open_file", 
+		"args": {"file": "${packages}/User/Default (Linux).sublime-keymap"} },
+
+	//Project keymap
+	// { "keys": ["ctrl+alt+p"], "command": "prompt_select_project" },
+	{ "keys": ["ctrl+alt+c"], "command": "close_project" },	
+	{ "keys": ["shift+alt+e"], "command": "open_file", "args": { "file": "${project}" } }	
+	*/
+
+	{ "keys": ["super+."], "command": "auto_complete" },
+	{ "keys": ["super+."], "command": "replace_completion_with_auto_complete", "context":
+		[
+			{ "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
+			{ "key": "auto_complete_visible", "operator": "equal", "operand": false },
+			{ "key": "setting.tab_completion", "operator": "equal", "operand": true }
+		]
+	},
+	{ "keys": ["super+k", "1"], "command": "open_file", 
+		"args": {"file": "${packages}/Default/Default (OSX).sublime-keymap"} },
+	{ "keys": ["super+k", "2"], "command": "open_file", 
+		"args": {"file": "${packages}/User/Default (OSX).sublime-keymap"} },
+
+	// { "keys": ["ctrl+super+c"], "command": "close_project" },	
+	{ "keys": ["shift+super+e"], "command": "open_file", "args": { "file": "${project}" } }
+]

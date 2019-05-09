@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+[$1]($2)
+]]></content>
+	<tabTrigger>md.lk</tabTrigger>
+	<scope>text.html.markdown, meta.paragraph.markdown</scope>
+	<description>Markdown Link</description>
+</snippet>

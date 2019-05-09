@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+> ![](https://cloud.spring.io/spring-cloud-static/spring-cloud-sleuth/2.1.0.RELEASE/single/images/important.png) **Important**
+
+> $1
+]]></content>
+	<tabTrigger>md.si</tabTrigger>
+	<scope>text.html.markdown, meta.paragraph.markdown</scope>
+	<description>Markdown Spring Doc Important</description>
+</snippet>

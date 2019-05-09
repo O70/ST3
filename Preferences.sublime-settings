@@ -1,0 +1,11 @@
+{
+	"font_size": 18,
+	"ignored_packages":
+	[
+	],
+	"show_encoding": true,
+
+    // Display line endings in the status bar
+    "show_line_endings": true,
+	"theme": "Adaptive.sublime-theme"
+}

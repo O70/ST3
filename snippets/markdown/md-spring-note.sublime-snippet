@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+> ![](https://cloud.spring.io/spring-cloud-static/spring-cloud-sleuth/2.1.0.RELEASE/single/images/note.png) $1
+]]></content>
+	<tabTrigger>md.sn</tabTrigger>
+	<scope>text.html.markdown, meta.paragraph.markdown</scope>
+	<description>Markdown Spring Doc Note</description>
+</snippet>
