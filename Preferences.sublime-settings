@@ -1,13 +1,12 @@
 {
-	"font_size": 18,
+	"color_scheme": "Monokai.sublime-color-scheme",
+	"font_size": 20,
+	"highlight_line": true,
 	"ignored_packages":
 	[
 	],
+	"overlay_scroll_bars": "enabled",
 	"show_encoding": true,
-
-    // Display line endings in the status bar
-    "show_line_endings": true,
-	"theme": "Adaptive.sublime-theme",
-	"highlight_line": true,
-	"overlay_scroll_bars": "enabled"
+	"show_line_endings": true,
+	"theme": "Adaptive.sublime-theme"
 }
