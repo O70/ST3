@@ -8,5 +8,6 @@
 	"overlay_scroll_bars": "enabled",
 	"show_encoding": true,
 	"show_line_endings": true,
+	"ensure_newline_at_eof_on_save": true,
 	"theme": "Adaptive.sublime-theme"
 }
