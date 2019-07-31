@@ -1,5 +1,6 @@
 {
 	"color_scheme": "Monokai.sublime-color-scheme",
+	"ensure_newline_at_eof_on_save": true,
 	"font_size": 20,
 	"highlight_line": true,
 	"ignored_packages":
@@ -8,6 +9,5 @@
 	"overlay_scroll_bars": "enabled",
 	"show_encoding": true,
 	"show_line_endings": true,
-	"ensure_newline_at_eof_on_save": true,
 	"theme": "Adaptive.sublime-theme"
 }
