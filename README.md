@@ -8,6 +8,7 @@
 ## Keymap(\*.sublime-keymap)
 
 - Default (OSX).sublime-keymap
+- Default (Windows).sublime-keymap
 
 ## Build(\*.sublime-build)
 

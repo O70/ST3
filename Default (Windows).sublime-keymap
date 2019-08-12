@@ -15,5 +15,14 @@
 	//Project keymap
 	// { "keys": ["ctrl+alt+p"], "command": "prompt_select_project" },
 	// { "keys": ["ctrl+alt+c"], "command": "close_project" },	
-	{ "keys": ["shift+alt+e"], "command": "open_file", "args": { "file": "${project}" } }
+	{ "keys": ["shift+alt+e"], "command": "open_file", "args": { "file": "${project}" } },
+
+	// Terminus
+	{ "keys": ["super+backquote"], "command": "toggle_terminus_panel" },
+	{ 
+        "keys": ["ctrl+alt+t"], "command": "terminus_open", "args": {
+        	"title": "Terminus",
+            "cwd": "${file_path:${folder}}"
+        }
+    }
 ]
