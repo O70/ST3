@@ -7,3 +7,5 @@
 *.user-ca-bundle
 
 Package\ Control.sublime-settings
+
+Terminus*

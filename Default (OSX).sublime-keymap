@@ -33,5 +33,16 @@
 		"args": {"file": "${packages}/User/Default (OSX).sublime-keymap"} },
 
 	// { "keys": ["ctrl+super+c"], "command": "close_project" },	
-	{ "keys": ["shift+super+e"], "command": "open_file", "args": { "file": "${project}" } }
+	{ "keys": ["shift+super+e"], "command": "open_file", "args": { "file": "${project}" } },
+
+	// Terminus
+	// { "keys": ["super+`"], "command": "toggle_terminus_panel" },
+	{ "keys": ["super+backquote"], "command": "toggle_terminus_panel" },
+	{ 
+        "keys": ["super+alt+t"], "command": "terminus_open", "args": {
+        	// "cmd": "python3",
+        	"title": "Terminus",
+            "cwd": "${file_path:${folder}}"
+        }
+    }
 ]
