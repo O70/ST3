@@ -30,3 +30,22 @@
 - MarkdownPreview
 - Nodejs
 - Terminus
+
+## Sublime Settings
+
+### Terminus
+
+- Add environment variables `Path: C:\Program Files\Git\bin`
+- `Terminus.sublime-settings`:
+```json
+"shell_configs": [
+    {
+        "name": "Git Bash",
+        "cmd": "bash.exe",
+        "env": {},
+        "enable": true,
+        "default": true,
+        "platforms": ["windows"]
+    }
+]
+```
