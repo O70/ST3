@@ -1,5 +1,20 @@
 {
 	"cmd": ["node", "$file"],
-	"selector": "source.js"
+	// "cmd": ["/Users/Guiwang/Workspace/Utility/nodes/node-v10.16.3-darwin-x64/bin/node", "$file"],
+	"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+	"selector": "source.js",
+	// https://sublime-text.readthedocs.io/en/latest/reference/build_systems.html#id2
+	// 在某些操作系统中，终端和图形化应用的 PATH 值会有所不同。所以即便你的构建系统在命令行下 可以正常工作，
+	// 在Sublime Text也不见得能够正常。这与Shell中的用户设置有关。
+	// "path": "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Guiwang/Workspace/Utility/maven/bin:/Users/Guiwang/Workspace/Utility/spring-cli/bin:/Users/Guiwang/Workspace/Utility/sonar-scanner/bin:/usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/bin:/Users/Guiwang/Workspace/Utility/nodes/node-v10.16.3-darwin-x64/bin:/Users/Guiwang/Workspace/Utility/apache-ant-1.9.14/bin:/Users/Guiwang/Workspace/Utility/gradles/gradle-6.3/bin"
+	"windows": {
+        "shell_cmd": "taskkill /F /IM node.exe & node $file"
+    },
+    "linux": {
+        "shell_cmd": "killall node; /usr/bin/env node $file"
+    },
+    "osx": {
+        "shell_cmd": "killall node; /usr/bin/env node $file"
+    }
 }
 
