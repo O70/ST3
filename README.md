@@ -49,3 +49,13 @@
     }
 ]
 ```
+
+## Plugins
+
+- Package Control
+
+- Terminus
+
+- MarkdownPreview
+
+- Dockerfile Syntax Highlighting
