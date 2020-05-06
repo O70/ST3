@@ -11,6 +11,9 @@
 		"args": {"file": "${packages}/Default/Default (Linux).sublime-keymap"} },
 	{ "keys": ["ctrl+k", "2"], "command": "open_file", 
 		"args": {"file": "${packages}/User/Default (Linux).sublime-keymap"} },
+
+	// ctrl+shift+p, type vmen
+	{ "keys": ["ctrl+alt+m"], "command": "toggle_menu" },
 		
 	//Project keymap
 	// { "keys": ["ctrl+alt+p"], "command": "prompt_select_project" },
